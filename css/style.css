@@ -8529,7 +8529,7 @@ textarea.form-control {
   margin-bottom: 0; }
 
 .block-3 .image {
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat; }
   @media (max-width: 767.98px) {
