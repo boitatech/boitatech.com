@@ -551,7 +551,7 @@ figure{
 	background-color:rgba(0,0,0,0); 
 	background-position:center center; 
 	background-repeat:no-repeat; 
-	background-image:url(images/preloader.svg);
+	background-image:url(preloader.svg);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -786,7 +786,7 @@ img{
 	height:158px;
     margin-top: -1px;
     transform: translateX(-50%);
-	background:url(images/icons/header-lower-bg.png) no-repeat;
+	background:url(header-lower-bg.png) no-repeat;
 	background-position:center center;
 }
 
@@ -1297,7 +1297,7 @@ img{
 	width:2000px;
 	height:100%;
 	background-size:cover;
-	background:url(images/background/3.jpg) repeat;
+	background:url(3.jpg) repeat;
 }
 
 .header-style-two .nav-outer{
@@ -2021,7 +2021,7 @@ img{
 	text-align: center;
 	padding-top: 20px;
 	border-bottom: 13px solid #000000;
-	background:url(images/icons/pagers-curve.png) center top no-repeat;
+	background:url(pagers-curve.png) center top no-repeat;
 }
 
 .banner-section .owl-dots .owl-dot{
@@ -2079,7 +2079,7 @@ img{
 	top:0px;
 	right:0px;
 	height:213px;
-	background:url(images/background/1.png) round;
+	background:url(1.png) round;
 }
 
 /* Default Portfolio Item */
@@ -2491,7 +2491,7 @@ img{
 	position:relative;
 	z-index:1;
 	border:1px solid #2e2d2d;
-	background:url(images/background/3.jpg) no-repeat;
+	background:url(3.jpg) no-repeat;
 	background-size:cover;
 	border-right:none;
 }
@@ -2724,7 +2724,7 @@ img{
 	color:#ffffff;
 	line-height:1em;
 	padding:30px 0px;
-	/* background:url(images/background/4.jpg) no-repeat; */
+	/* background:url(4.jpg) no-repeat; */
 	background-size:cover;
 }
 
@@ -2974,7 +2974,7 @@ img{
 	line-height:92px;
 	text-align:center;
 	border:1px solid #302f2f;
-	/* background:url(images/background/4.jpg) no-repeat; */
+	/* background:url(4.jpg) no-repeat; */
 	background-size:cover;
 	transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -3148,7 +3148,7 @@ img{
 	top:0px;
 	width:20000px;
 	height:100%;
-	background:#1b1a1a url(images/background/7.png) repeat-x;
+	background:#1b1a1a url(7.png) repeat-x;
 }
 
 .facts-section .lower-boxed .testimonial-column .owl-nav{
@@ -3392,7 +3392,7 @@ img{
     top: 0px;
     right: 0px;
     height: 213px;
-    background: url(images/background/6.png) round;
+    background: url(6.png) round;
 }
 
 .main-footer .widgets-section{
@@ -3533,7 +3533,7 @@ img{
 	position:relative;
 	padding:25px 0px;
 	border-top:1px solid #302f2f;
-	background:url(images/background/3.jpg) repeat;
+	background:url(3.jpg) repeat;
 }
 
 .main-footer .footer-bottom .copyright{
