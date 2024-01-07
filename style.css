@@ -157,6 +157,7 @@ a {
 
 .socials {
   gap: 24px;
+  flex-wrap: wrap;
   display: flex;
 }
 
