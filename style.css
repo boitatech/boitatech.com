@@ -275,7 +275,7 @@ a {
   }
 }
 
-@media (max-height: 820px) {
+@media (max-height: 600px) {
   .question-group {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
