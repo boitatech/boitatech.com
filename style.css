@@ -161,6 +161,10 @@ a {
   display: flex;
 }
 
+a.socials {
+  align-items: center;
+}
+
 .medias-group {
   gap: 1rem;
   flex-wrap: wrap;
@@ -206,11 +210,14 @@ a {
 
 .darker-gray {
   color: #424242;
+  display: flex;
+  align-items: center;
 }
 
 .darker-gray-svg {
   filter: invert(27%) sepia(5%) saturate(0%) hue-rotate(236deg) brightness(90%)
     contrast(95%);
+  margin-top: 2px;
 }
 
 .logo-icon {
