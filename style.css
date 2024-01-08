@@ -83,7 +83,7 @@ footer {
 }
 
 a.button {
-  width: 160px;
+  width: 160px !important;
   justify-content: center;
   height: 42px;
   gap: 0.5rem;
@@ -150,7 +150,7 @@ a {
 }
 
 .navbar-content {
-  width: 95%;
+  width: 85%;
   justify-content: space-between;
   display: flex;
 }
@@ -175,7 +175,6 @@ a {
 
 .content {
   width: 80%;
-  margin-left: 83px;
   justify-content: space-between;
   gap: 1rem;
   flex-direction: column;
@@ -185,12 +184,12 @@ a {
 .content-container {
   z-index: 1;
   justify-content: center;
-  height: 70%;
   flex-direction: column;
   display: flex;
   padding-bottom: 2rem;
   padding-top: 2rem;
   position: relative;
+  align-items: center;
 }
 
 .question-group {
@@ -214,8 +213,8 @@ a {
 }
 
 .logo-icon {
-  width: 25%;
   height: 52px;
+  width: 52px;
 }
 
 .logo {
@@ -247,7 +246,7 @@ a {
   }
 
   .logo-text {
-    opacity: 0;
+    display: none;
   }
 
   .general-container {
@@ -275,13 +274,15 @@ a {
   }
 }
 
-@media (max-height: 600px) {
+@media (min-width: 1133px) {
   .question-group {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 4.5rem;
   }
+}
 
+@media (max-height: 600px) {
   .content {
     width: 90%;
     margin-left: 0;
@@ -293,13 +294,13 @@ a {
   }
 }
 
-@media (max-height: 880px) {
+@media (max-height: 1000px) {
   .content-container {
     height: auto;
   }
 }
 
-@media (max-height: 1620px) {
+@media (max-height: 900px) {
   footer {
     position: relative;
   }
