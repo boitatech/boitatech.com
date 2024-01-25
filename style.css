@@ -82,7 +82,7 @@ footer {
   display: flex;
 }
 
-div.button {
+a.button {
   width: 160px !important;
   justify-content: center;
   height: 42px;
